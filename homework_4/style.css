@@ -1,0 +1,54 @@
+h1{
+    color: #FF0000;
+    text-align: center;
+}
+.form-container {
+    width: 500px;
+    margin: 0 auto;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-right: 25%;
+
+}
+.card-container{
+    display: inline-block;
+    box-shadow: 0 4px 8px 0;
+    max-width: 200px;
+    margin-top: 20px;
+    margin-left: 10px;
+    text-align: center;
+}
+img{
+    width: 100%;
+}
+h2{
+    color: #7c4dff;
+}
+p{
+    padding: 4px;
+    font-size: 14px;
+    color: #203d3f;
+}
+.price{
+    color: #a724cc;
+    font-size: 18px;
+}
+button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: #fff;
+    background-color: #79b2ec;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 17px;
+}
