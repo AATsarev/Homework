@@ -1,0 +1,44 @@
+header{
+	background-color: blue;
+    height: 60px;
+    width: 100%;  
+	position: fixed;  
+	top: 0;  
+	z-index: 100;  
+	
+}
+h1{
+	position: absolute;
+  	transform: translate(-50%,-50%);
+ 	left: 50%;
+ 	color: white;
+}
+aside{
+	position: fixed;
+	top: 60px;
+	left: 30px;
+}
+a{
+	display: block;
+}
+#menu{
+	color: indianred;
+}
+.title-container{
+	color: white;
+	padding-left: 5px;
+	background-color: indianred;
+	position: sticky;
+	top: 60px;
+	left: 200px;
+
+}
+.name-container{
+	position: relative;
+	top: 40px;
+	left: 200px;
+
+}
+ul{
+	list-style-type: none;
+}
