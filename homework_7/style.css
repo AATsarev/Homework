@@ -127,7 +127,7 @@ button{
 
         display: flex;
         justify-content: center;
-        align-items: center;
+        align-items: flex-start;
     }
     form {
         display: flex;
@@ -135,9 +135,9 @@ button{
         width: 94vw;
         max-width: 600px;
         background: #FFFFFF;
-        margin: 0;
-        height: ;
-        max-height: 412px;
+        margin-top: 20px;
+        height: 95vh ;
+
 
     }
     .label-input {
